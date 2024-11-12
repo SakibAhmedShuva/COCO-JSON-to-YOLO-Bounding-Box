@@ -11,6 +11,7 @@ This Python script converts COCO (Common Objects in Context) dataset annotations
 - Copies the corresponding images to a separate directory
 - Generates a `data.yaml` file with the necessary information for training a YOLO model
 
+
 ## Usage
 
 1. Clone the repository:
@@ -40,6 +41,8 @@ This Python script converts COCO (Common Objects in Context) dataset annotations
    - `images`: Contains the copied image files
    - `labels`: Contains the YOLO-formatted label files
    - `data.yaml`: A YAML file with the necessary information for training a YOLO model
+
+Sample data available in annotations and images folder.
 
 ## Requirements
 
